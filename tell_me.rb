@@ -60,4 +60,4 @@ def print_app_versions_for(base_path)
 end
 
 print_app_versions_for "/Applications"
-print_app_versions_for "/Users/keith/Applications"
+print_app_versions_for "#{ENV['HOME']}/Applications"
